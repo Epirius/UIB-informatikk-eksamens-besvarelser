@@ -18,6 +18,10 @@ body {
     display: flex;
     gap: 1rem;
   }
+  p {
+    font-size: larger;
+    font-weight: bolder;
+  }
 }
 
 /* Embed container should take up remaining space */
