@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content styling */
+.info {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  div {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+/* Embed container should take up remaining space */
+.embed {
+  flex-grow: 1;
+  display: flex;
+}
+
+/* Embed styling to fit within the container */
+embed {
+  width: 100%;
+  height: 100%;
+}
